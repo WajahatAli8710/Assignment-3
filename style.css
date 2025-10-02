@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Sanseriffic;
+  src: url(Sanseriffic.otf);
+}
+@font-face {
+  font-family: vilaka Demo;
+  src: url(Vilaka\ Modern\ Serif\ Font.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #e2e2e2;
+}
+/* navbar */
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+#letCont {
+  display: flex;
+  gap: 40px;
+}
+#letCont a {
+  font-size: 18px;
+  font-family: arial;
+  text-decoration: none;
+  color: #222222;
+}
+#centerCont h3 {
+  font-family: chetta vissto;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #222222;
+}
+#rightCont {
+  display: flex;
+  gap: 40px;
+}
+#rightCont a {
+  font-size: 18px;
+  font-family: arial;
+  text-decoration: none;
+  color: #222222;
+}
+/* hero section heading */
+#main h1 {
+  font-size: 355px;
+  line-height: 330px;
+  padding-left: 30px;
+  font-family: Sanseriffic;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #222222;
+}
+/* contant box */
+#contentBox {
+  padding: 35px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+#topBox {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#topBox h4 {
+  font-size: 20px;
+  font-family: arial;
+  color: #222222;
+}
+#topBox p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #616161;
+}
+#bottomBox {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#bottomBox h5 {
+  font-size: 20px;
+  font-family: arial;
+  color: #222222;
+}
+#bottomBox p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #616161;
+}
+/* bottom bar */
+#bottomBar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 80px;
+  align-items: center;
+}
+#secondDev {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+#bottomBar h4 {
+  font-size: 35px;
+  font-family: vilaka Demo;
+  font-weight: 500;
+  font-style: italic;
+  color: #222222;
+}
+#bottomBar h3 {
+  font-size: 25px;
+  font-weight: 100;
+  border-bottom: 2px solid black;
+  color: #222222;
+}
+#secondDev i {
+  font-size: 23px;
+  color: #222222;
+}
+/* hero section images */
+#main img {
+  position: absolute;
+}
+#first {
+  height: 200px;
+  width: 190px;
+  top: 52%;
+  left: 40%;
+  object-fit: cover;
+  object-position: top;
+}
+#second {
+  height: 200px;
+  width: 190px;
+  top: 65%;
+  left: 48%;
+  object-fit: cover;
+  object-position: top;
+}
+#third {
+  height: 340px;
+  bottom: 0;
+  width: 215px;
+  object-fit: cover;
+  object-position: top;
+  top: 40%;
+  left: 58%;
+}
